@@ -136,7 +136,7 @@ class TqsdkDatafeed(BaseDatafeed):
                 # *volume: 7823(当日成交量)
                 # *amount: 19237841.0(成交额)
                 # *open_interest: 1941(持仓量)
-                if pandas.isna(tp.last_price) :
+                if pandas.isna(tp.last_price):
                     print(tp)
                     continue
 
